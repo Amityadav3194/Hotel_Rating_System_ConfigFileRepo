@@ -1,6 +1,4 @@
-spring:
-  application:
-    name: Config-Dev
+
 
 eureka:
   instance:
@@ -13,6 +11,8 @@ eureka:
 
 
 spring:
+  application:
+    name: config-default
   datasource:
     url: jdbc:mysql://localhost:3306/microservices
     username: root
